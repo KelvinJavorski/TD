@@ -37,6 +37,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		641BFB6624B138C600829F6E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		641BFB6724B1395A00829F6E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		641BFB6824B1396500829F6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B683AC0524AA7D910010BAC4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +77,9 @@
 		B683AC1024AA7D910010BAC4 /* Tower Defense */ = {
 			isa = PBXGroup;
 			children = (
+				641BFB6824B1396500829F6E /* Model */,
+				641BFB6724B1395A00829F6E /* View */,
+				641BFB6624B138C600829F6E /* Controller */,
 				B683AC1124AA7D910010BAC4 /* AppDelegate.swift */,
 				B683AC1324AA7D910010BAC4 /* art.scnassets */,
 				B683AC1524AA7D910010BAC4 /* GameViewController.swift */,
