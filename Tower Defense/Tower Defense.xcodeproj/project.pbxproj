@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B641926B24B1423600834197 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B641926A24B1423600834197 /* GameObject.swift */; };
 		B683AC1224AA7D910010BAC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683AC1124AA7D910010BAC4 /* AppDelegate.swift */; };
 		B683AC1424AA7D910010BAC4 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = B683AC1324AA7D910010BAC4 /* art.scnassets */; };
 		B683AC1624AA7D910010BAC4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B683AC1524AA7D910010BAC4 /* GameViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B641926A24B1423600834197 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameObject.swift; path = "Tower Defense/Model/GameObject.swift"; sourceTree = SOURCE_ROOT; };
 		B683AC0E24AA7D910010BAC4 /* Tower Defense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tower Defense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B683AC1124AA7D910010BAC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B683AC1324AA7D910010BAC4 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		641BFB6624B138C600829F6E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B683AC1524AA7D910010BAC4 /* GameViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -54,6 +57,7 @@
 		641BFB6824B1396500829F6E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B641926A24B1423600834197 /* GameObject.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,7 +86,6 @@
 				641BFB6624B138C600829F6E /* Controller */,
 				B683AC1124AA7D910010BAC4 /* AppDelegate.swift */,
 				B683AC1324AA7D910010BAC4 /* art.scnassets */,
-				B683AC1524AA7D910010BAC4 /* GameViewController.swift */,
 				B683AC1724AA7D910010BAC4 /* Main.storyboard */,
 				B683AC1A24AA7D950010BAC4 /* Assets.xcassets */,
 				B683AC1C24AA7D950010BAC4 /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 			files = (
 				B683AC1624AA7D910010BAC4 /* GameViewController.swift in Sources */,
 				B683AC1224AA7D910010BAC4 /* AppDelegate.swift in Sources */,
+				B641926B24B1423600834197 /* GameObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
